@@ -1,0 +1,154 @@
+@import '';
+
+/* _content/Shabstec.Blazor/Base/SubNvpItem.razor.rz.scp.css */
+.sub-nvp-item[b-56jj955kzf] {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.sub-nvp-name[b-56jj955kzf] {
+    padding: 5px;
+}
+
+.sub-nvp-value[b-56jj955kzf] {
+    padding: 5px;
+}
+
+.sub-nvp-readonly[b-56jj955kzf] {
+    background-color: var(--sub-input-readonly-color);
+}
+
+.sub-nvp-edit[b-56jj955kzf] {
+    background-color: var(--sub-input-edit-color);
+}
+/* _content/Shabstec.Blazor/SubDataAnnotationValidator.razor.rz.scp.css */
+/* _content/Shabstec.Blazor/SubEditForm.razor.rz.scp.css */
+body[b-ttil25aco8]
+{
+}
+/* _content/Shabstec.Blazor/SubFlipCard.razor.rz.scp.css */
+.flip-card[b-0vfdbk5wwn] {
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    width: 200px;
+    height: 200px;
+}
+
+    .flip-card:hover .flip-card-inner[b-0vfdbk5wwn] {
+        transform: rotateY(180deg);
+    }
+
+    .flip-card .flip-card-flipped[b-0vfdbk5wwn] {
+        transform: rotateY(180deg);
+    }
+
+.flip-card-no-hover[b-0vfdbk5wwn] {
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    width: 200px;
+    height: 200px;
+}
+
+    .flip-card-no-hover .flip-card-flipped[b-0vfdbk5wwn] {
+        transform: rotateY(180deg);
+    }
+
+.flip-card-inner[b-0vfdbk5wwn] {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-front[b-0vfdbk5wwn], .flip-card-back[b-0vfdbk5wwn] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+.flip-card-front[b-0vfdbk5wwn] {
+}
+
+.flip-card-back[b-0vfdbk5wwn] {
+    transform: rotateY(180deg);
+}
+/* _content/Shabstec.Blazor/SubFloatingButton.razor.rz.scp.css */
+.sub-floating-button[b-lp9xkt0aah] {
+    background-color: var(--sub-palette-primary);
+    color: var(--sub-palette-primary-text);
+    border-radius: 17px;
+    border: 0;
+    padding: 0px 12px;
+    margin: 0;
+    width: auto;
+    height: 34px;
+    font-weight: bold;
+    transition: background-color 0.8s;
+}
+
+    .sub-floating-button:hover[b-lp9xkt0aah] {
+        transition: background-color 0.8s;
+        background-color: var(--sub-palette-primary-darken);
+    }
+
+    .sub-floating-button:active[b-lp9xkt0aah] {
+        transition: transform 0.4s;
+        transition: box-shadow 0.4s;
+        transform: scale(0.95);
+        cursor: pointer;
+        box-shadow: none;
+    }
+
+    .sub-floating-button:focus[b-lp9xkt0aah] {
+        outline: none;
+    }
+/* _content/Shabstec.Blazor/SubInputBool.razor.rz.scp.css */
+.sub-input-readonly[b-r6ttg2iynh] {
+    background-color: var(--sub-input-readonly-color);
+}
+
+.sub-input-edit[b-r6ttg2iynh] {
+    background-color: var(--sub-input-edit-color);
+}
+/* _content/Shabstec.Blazor/SubInputInteger.razor.rz.scp.css */
+.sub-input-readonly[b-ogtzqwg7s0] {
+    background-color: var(--sub-input-readonly-color);
+}
+
+.sub-input-edit[b-ogtzqwg7s0] {
+    background-color: var(--sub-input-edit-color);
+}
+/* _content/Shabstec.Blazor/SubInputText.razor.rz.scp.css */
+.sub-input-readonly[b-i0z9ea7aex] {
+    background-color: var(--sub-input-readonly-color);
+}
+
+.sub-input-edit[b-i0z9ea7aex] {
+    background-color: var(--sub-input-edit-color);
+}
+/* _content/Shabstec.Blazor/SubInputTime.razor.rz.scp.css */
+.sub-input-readonly[b-fjwk1z47q7] {
+    background-color: var(--sub-input-readonly-color);
+}
+
+.sub-input-edit[b-fjwk1z47q7] {
+    background-color: var(--sub-input-edit-color);
+}
+/* _content/Shabstec.Blazor/SubNvpBoolItem.razor.rz.scp.css */
+/* _content/Shabstec.Blazor/SubNvpComment.razor.rz.scp.css */
+/* _content/Shabstec.Blazor/SubNvpCustomItem.razor.rz.scp.css */
+/* _content/Shabstec.Blazor/SubNvpDivider.razor.rz.scp.css */
+/* _content/Shabstec.Blazor/SubNvpIntegerItem.razor.rz.scp.css */
+/* _content/Shabstec.Blazor/SubNvpTextItem.razor.rz.scp.css */
+/* _content/Shabstec.Blazor/SubNvpTimeItem.razor.rz.scp.css */
+/* _content/Shabstec.Blazor/SubNvpView.razor.rz.scp.css */
+/* _content/Shabstec.Blazor/SubPaper.razor.rz.scp.css */
+.sub-paper[b-44pe2m30gj] {
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--sub-paper-color);
+    border-radius: 4px;
+    transition: box-shadow 300ms cubic-bezier(.4,0,.2,1) 0ms;
+}
+/* _content/Shabstec.Blazor/SubValidationSummary.razor.rz.scp.css */
